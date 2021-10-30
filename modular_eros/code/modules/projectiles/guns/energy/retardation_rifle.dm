@@ -6,3 +6,4 @@
 	materials = list(MAT_METAL=2000, MAT_SILVER=2000)
 	ammo_type = list(/obj/item/ammo_casing/energy/retardator, /obj/item/ammo_casing/energy/traumatizer)
 	fire_delay = 1 SECONDS
+	selfcharge = EGUN_SELFCHARGE
