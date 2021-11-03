@@ -885,6 +885,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/effect/landmark/start/prisoner,
 /turf/open/floor/engine,
 /area/security/prison)
 "acq" = (
@@ -1198,6 +1199,7 @@
 	id = "PCell 3";
 	pixel_x = -28
 	},
+/obj/effect/landmark/start/prisoner,
 /turf/open/floor/engine,
 /area/security/prison)
 "acO" = (
@@ -1213,6 +1215,7 @@
 	id = "PCell 2";
 	pixel_x = -28
 	},
+/obj/effect/landmark/start/prisoner,
 /turf/open/floor/engine,
 /area/security/prison)
 "acQ" = (
@@ -1248,6 +1251,7 @@
 /obj/structure/toilet{
 	dir = 1
 	},
+/obj/effect/landmark/start/prisoner,
 /turf/open/floor/plasteel/freezer,
 /area/security/prison)
 "acV" = (
@@ -4603,7 +4607,7 @@
 /turf/open/floor/engine,
 /area/security/processing)
 "ajg" = (
-/obj/machinery/computer/gulag_teleporter_computer,
+/obj/machinery/computer/prisoner/gulag_teleporter_computer,
 /turf/open/floor/engine,
 /area/security/processing)
 "ajh" = (
@@ -41814,7 +41818,7 @@
 /obj/machinery/sparker/toxmix{
 	pixel_x = 25
 	},
-/obj/machinery/atmospherics/components/unary/vent_pump/siphon/atmos/toxins_mixing_output{
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 4
 	},
 /turf/open/floor/engine/vacuum,
@@ -55121,11 +55125,11 @@
 /turf/open/floor/engine/vacuum,
 /area/maintenance/disposal/incinerator)
 "cta" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/siphon/atmos/incinerator_output{
-	dir = 1
-	},
 /obj/structure/sign/warning/vacuum/external{
 	pixel_y = -32
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 1
 	},
 /turf/open/floor/engine/vacuum,
 /area/maintenance/disposal/incinerator)
